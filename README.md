@@ -23,6 +23,8 @@ docker run -it --rm -v %(cd)%:/workspace cs4246/base <command>
 ```
 
 For example, if you want to run ``python train.py`` inside ``/home/cs4246/hw1``, you can do:
+
+
 LINUX
 ```
 cd /home/cs4246/hw1
