@@ -19,7 +19,7 @@ docker run -it --rm -v $PWD:/workspace cs4246/base <command>
 ```
 ### Windows
 ```
-docker run -it --rm -v %(cd)%:/workspace cs4246/base <command>
+docker run -it --rm -v %cd%:/workspace cs4246/base <command>
 ```
 
 ## Examples
@@ -36,5 +36,6 @@ docker run -it --rm -v $PWD:/workspace cs4246/base python train.py
 ```
 ### Windows
 ```
-docker run -it --rm -v %(cd)%:/workspace cs4246/base python train.py
+cd /home/cs4246/hw1
+docker run -it --rm -v %cd%:/workspace cs4246/base python train.py
 ```
