@@ -37,5 +37,5 @@ docker run -it --rm -v $PWD:/workspace cs4246/base python train.py
 ### Windows
 ```
 cd /home/cs4246/hw1
-docker run -it --rm -v %cd%:/workspace cs4246/base python train.py
+docker run -it --rm -v %cd%:/workspace cs4246/base python train.py  
 ```
