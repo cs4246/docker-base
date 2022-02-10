@@ -5,5 +5,5 @@ RUN conda install -y -c pytorch pytorch=1.1.0 torchvision
 
 RUN pip install git+https://github.com/cs4246/gym-grid-driving.git
 
-RUN apt-get update && apt-get -y install cmake g++ mercurial make
-RUN hg clone http://hg.fast-downward.org /fast_downward && cd /fast_downward && ./build.py
+RUN apt-get update && apt-get -y install cmake g++ git make
+RUN git clone https://github.com/aibasel/downward.git /fast_downward && cd /fast_downward && ./build.py
